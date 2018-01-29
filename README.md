@@ -104,6 +104,15 @@ return [
 - Check and edit the other files in the `config/` directory to customize your application as required.
 - Refer to the README in the `tests` directory for information specific to basic application tests.
 
+Edit the file `config/params.php` with real data, for example:
+
+```php
+return [
+    'adminEmail' => 'admin@gmail.com',
+    'dateControlDisplayTimezone'=>  'Europe/Madrid',
+    'dateControlSaveTimezone'=>  'Europe/Madrid',
+]
+```
 
 TESTING
 -------
