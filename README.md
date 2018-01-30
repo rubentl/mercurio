@@ -1,10 +1,10 @@
-<p align="center">
-    <a href="https://github.com/yiisoft" target="_blank">
-        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
-    </a>
-    <h1 align="center">Yii 2 Basic Project Template</h1>
-    <br>
-</p>
+MERCURIO, MENSAJERÍA INTRANET
+-----------------------------
+
+
+ESTE ES UN PAQUETE DE UN EJERCICIO PARA EL CURSO DE PROGRAMACIÓN CON TECNOLOGÍA WEB  ¡¡¡NO INSTALAR!!!
+------------------------------------------------------------------------------------------------------
+
 
 Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
 rapidly creating small projects.
@@ -51,7 +51,7 @@ at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 You can then install this project template using the following command:
 
 ~~~
-php composer.phar create-project --prefer-dist --stability=dev yiisoft/yii2-app-basic basic
+php composer.phar create-project --prefer-dist --stability=dev rubentl/mercurio basic
 ~~~
 
 Now you should be able to access the application through the following URL, assuming `basic` is the directory
@@ -103,6 +103,7 @@ return [
 - Yii won't create the database for you, this has to be done manually before you can access it.
 - Check and edit the other files in the `config/` directory to customize your application as required.
 - Refer to the README in the `tests` directory for information specific to basic application tests.
+- Tables in data/gestor_avisosintranet.sql 
 
 Edit the file `config/params.php` with real data, for example:
 
